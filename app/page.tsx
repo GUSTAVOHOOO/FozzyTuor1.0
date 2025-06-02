@@ -204,7 +204,7 @@ export default function FozzytourHomepage() {
           >
             <Button
               size="lg"
-              className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-8 py-4 text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 border-0 font-bold"
+              className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-20 py-7 text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 border-0 font-bold"
               onClick={openWhatsApp}
             >
               <MessageCircle className="w-5 h-5 mr-2" />
@@ -338,6 +338,7 @@ export default function FozzytourHomepage() {
               viewport={{ once: true }}
               whileHover={{ y: -10, scale: 1.02 }}
               className="group cursor-pointer"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             >
               <div className="bg-white/80 backdrop-blur-md rounded-2xl overflow-hidden border border-blue-100 shadow-xl hover:shadow-2xl transition-all duration-500 hover:bg-white/90">
                 <div className="relative h-48 overflow-hidden">
@@ -371,6 +372,7 @@ export default function FozzytourHomepage() {
               viewport={{ once: true }}
               whileHover={{ y: -10, scale: 1.02 }}
               className="group cursor-pointer"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             >
               <div className="bg-white/80 backdrop-blur-md rounded-2xl overflow-hidden border border-blue-100 shadow-xl hover:shadow-2xl transition-all duration-500 hover:bg-white/90">
                 <div className="relative h-48 overflow-hidden">
@@ -404,6 +406,7 @@ export default function FozzytourHomepage() {
               viewport={{ once: true }}
               whileHover={{ y: -10, scale: 1.02 }}
               className="group cursor-pointer"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             >
               <div className="bg-white/80 backdrop-blur-md rounded-2xl overflow-hidden border border-blue-100 shadow-xl hover:shadow-2xl transition-all duration-500 hover:bg-white/90">
                 <div className="relative h-48 overflow-hidden">
@@ -459,6 +462,7 @@ export default function FozzytourHomepage() {
                 viewport={{ once: true }}
                 whileHover={{ y: -10, scale: 1.02 }}
                 className="cursor-pointer group"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
                 <div className="bg-white/80 backdrop-blur-md rounded-2xl overflow-hidden border border-blue-100 shadow-xl hover:shadow-2xl transition-all duration-500 hover:bg-white/90">
                   <div className="relative h-48 overflow-hidden bg-gradient-to-br from-blue-400 to-blue-600">
@@ -499,7 +503,7 @@ export default function FozzytourHomepage() {
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-8 py-4 text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 border-0 font-bold"
+                className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-12 py-4 text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 border-0 font-bold"
                 onClick={openWhatsApp}
               >
                 <MessageCircle className="w-5 h-5 mr-2" />

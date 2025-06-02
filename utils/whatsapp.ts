@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = '5599999999';
+const WHATSAPP_NUMBER = '5545991481772';
 const DEFAULT_MESSAGE = 'Olá! Gostaria de saber mais sobre os passeios.';
 
 export const openWhatsApp = () => {
