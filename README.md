@@ -76,3 +76,11 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 Gustavohooo
 → LinkedIn : www.linkedin.com/in/gustavo-mazur-a55863325
 → Instagram : gusta_mazur
+
+
+⚠️ License and Usage
+
+This project is protected by copyright laws. You are not allowed to copy, reproduce, modify, distribute, or use any part of this website, including its design, code, or content, without explicit written permission from the author.
+
+Copying or cloning this website is a violation of intellectual property laws and will be subject to legal action.
+
